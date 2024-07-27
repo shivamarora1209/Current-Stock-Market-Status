@@ -14,6 +14,7 @@ async function StockListAndValue() {
         //Work to be done.
         const summaryData = await summaryRequest.json() ;
         stocksValuearray = summaryData.stocksStatsData[0] ;
+        console.log(stocksValuearray) ;
         const asideSec = document.getElementsByClassName("aside")[0] ;
 
         for(const key in stocksValuearray) {
