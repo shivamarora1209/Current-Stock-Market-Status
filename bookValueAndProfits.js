@@ -1,5 +1,5 @@
 import { CreateChart, myChart } from "./chart.js";
-import { CreateSummary } from "./ComanyDetails.js";
+import { CreateSummary } from "./comanyDetails.js";
 
 StockListAndValue() ;
 let company = "AAPL";
